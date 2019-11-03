@@ -10,7 +10,8 @@
 
   <body>
     <%= render "common/nav" %>
-    <div class="container-fluid">
+    <div class="container-fluid" id="main">
+        <%= render "common/flash" %>
         <%= yield %>
     </div>
     <%= render "common/footer" %>
